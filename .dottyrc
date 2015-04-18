@@ -1,0 +1,18 @@
+{
+	"directories": [
+		"~/bin",
+		"~/.ssh"
+	],
+
+	"link": {
+		".ssh/authorized_keys": "~/.ssh/authorized_keys",
+		".bash_logout": "~/.bash_logout",
+		".bash_profile": "~/.bash_profile",
+		".bashrc": "~/.bashrc",
+		".bashrc_aliases": "~/.bashrc_aliases",
+		".vimrc": "~/.vimrc",
+		".vim/colors": "~/.vim/colors",
+		".gitconfig": "~/.gitconfig",
+		"dotty/dotty.py": "~/bin/dotty"
+	}
+}
