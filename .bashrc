@@ -5,6 +5,7 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
+export EDITOR="vim"
 HISTCONTROL=ignoreboth
 shopt -s histappend
 shopt -s checkwinsize
@@ -29,4 +30,4 @@ case ${TERM} in
     ;;
 esac
 
-[ -r /usr/share/bash-completion/bash_completion   ] && . /usr/share/bash-completion/bash_completion
+[ -r /usr/share/bash-completion/bash_completion ] && . /usr/share/bash-completion/bash_completion
