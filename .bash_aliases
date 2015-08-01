@@ -1,29 +1,16 @@
 #
-# ~/.bashrc_aliases
+# ~/.bash_aliases
 #
 
-# An alias/function which combines cd and ls in one
-cl() {
-    dir=$1
-    if [[ -z "$dir" ]]; then
-        dir=$HOME
-    fi
-    if [[ -d "$dir" ]]; then
-        cd "$dir"
-        ls
-    else
-        echo "bash: cl: '$dir': Directory not found"
-    fi
-}
-
 # Modified commands for QOL
+alias cd..='cd ..'
 alias ls='ls -hF --color=auto'
-alias lr='ls -R'                    # recursive ls
+alias lr='ls -R'
 alias ll='ls -l'
 alias la='ll -A'
-alias lx='ll -BX'                   # sort by extension
-alias lz='ll -rS'                   # sort by size
-alias lt='ll -rt'                   # sort by date
+alias lx='ll -BX'
+alias lz='ll -rS'
+alias lt='ll -rt'
 alias lm='la | more'
 alias dir='dir --color=auto'
 alias vdir='vdir --color=auto'
@@ -58,7 +45,4 @@ alias rm='rm -I'
 alias chown='chown --preserve-root'
 alias chmod='chmod --preserve-root'
 alias chgrp='chgrp --preserve-root'
-alias cls=' echo -ne "\033c"'       # clear screen for real (it does not work in Terminology)
-
-# Slip of the fingers...
-alias cd..='cd ..'
+alias cls=' echo -ne "\033c"'
