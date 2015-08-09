@@ -13,11 +13,4 @@ WHITE=$(tput setaf 7)
 BOLD=$(tput bold)
 RESET=$(tput sgr0)
 
-# The Git information we want to show within the prompt
-GIT_PS1_SHOWDIRTYSTATE='1'
-GIT_PS1_SHOWSTASHSTATE='1'
-GIT_PS1_SHOWUNTRACKEDFILES='1'
-GIT_PS1_SHOWUPSTREAM="auto"
-
-# Need to edit to colors above...
-PS1='\[\e[0;36m\]\u@\h\[\e[0;37m\][\[\e[01;32m\]\w\[\e[0;37m\]] '
+export PS1="\[$BOLD\]\[$RED\]\h\[$RESET\]\[$WHITE\] [\[$BOLD\]\[$GREEN\]\w\[$RESET\]\[$WHITE\]]\[$CYAN\]\\$ \[$RESET\]"
