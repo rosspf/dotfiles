@@ -20,7 +20,7 @@ set cot+=menuone    " Show preview of function prototype
 syntax enable
 
 try
-    colorscheme base16-atelierheath
+    colorscheme simple_dark
 catch
 endtry
 
