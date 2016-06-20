@@ -10,3 +10,5 @@ Usage
 To use these dotfiles, simply run the following command in your home folder:
 
 	$ git clone --recursive https://github.com/rosspf/dotfiles.git
+	$ mv dotfiles ~/.dotty
+	$ python ~/.dotty/dotty/dotty.py ~/.dotty/dotty.rc

@@ -15,7 +15,7 @@
 		".vim/colors": "~/.vim/colors",
 		".gitconfig": "~/.gitconfig",
 		"dotty/dotty.py": "~/bin/dotty"
-	}
+	},
 
 	"copy": {
 		".bash_local": "~/.bash_local",
