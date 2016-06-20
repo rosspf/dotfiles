@@ -9,12 +9,16 @@
 		".bash_aliases": "~/.bash_aliases",
 		".bash_exports": "~/.bash_exports",
 		".bash_functions": "~/.bash_functions",
-		".bash_logout": "~/.bash_logout",
 		".bash_prompt": "~/.bash_prompt",
 		".bash_profile": "~/.bash_profile",
 		".vimrc": "~/.vimrc",
 		".vim/colors": "~/.vim/colors",
 		".gitconfig": "~/.gitconfig",
 		"dotty/dotty.py": "~/bin/dotty"
+	}
+
+	"copy": {
+		".bash_local": "~/.bash_local",
+		".bash_logout": "~/.bash_logout"
 	}
 }
