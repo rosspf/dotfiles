@@ -10,7 +10,7 @@
 		".bash_exports": "~/.bash_exports",
 		".bash_functions": "~/.bash_functions",
 		".bash_prompt": "~/.bash_prompt",
-		".bash_profile": "~/.bash_profile",
+		".profile": "~/.profile",
 		".vimrc": "~/.vimrc",
 		".vim/colors": "~/.vim/colors",
 		".gitconfig": "~/.gitconfig",
